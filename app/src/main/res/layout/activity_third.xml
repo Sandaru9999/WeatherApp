@@ -26,13 +26,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="189dp"
-        android:visibility="visible">
+        android:visibility="visible"
+        >
+
 
         <TextView
             android:id="@+id/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
+            android:textColor="#F8F1F1"
             android:textSize="24dp" />
 
         <TextView
@@ -42,6 +45,7 @@
             android:layout_below="@id/address"
             android:layout_marginTop="10dp"
             android:text=""
+            android:textColor="#FFFFFF"
             android:textSize="24sp" />
 
     </RelativeLayout>
